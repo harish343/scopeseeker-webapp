@@ -2,8 +2,8 @@ name: Vercel Preview Deployment
 
 on:
   push:
-    branches-ignore:
-      - main
+    branches:
+      - master
   workflow_dispatch:
   pull_request:
     types:
